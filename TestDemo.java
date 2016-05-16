@@ -35,7 +35,7 @@ public class TestDemo {
 		return resultado;
 	}
 
-	public static int solutionDos(int[] A) {
+	public static int solutionTwo(int[] A) {
 		HashMap<Integer, Integer> equals = new HashMap<Integer, Integer>();
 		boolean ban=false;
 		for (int i = 0; i < A.length; i++) {
@@ -62,8 +62,8 @@ public class TestDemo {
 
 	public static void main(String[] args) {
 		int A[] = { 9, 3, 9, 3, 9, 7, 9 };
-		// System.out.println(A[2]);
-		// System.out.print("Resultado" + solution(A));
-		System.out.print("Resultado" + solutionDos(A));
+
+		System.out.print("Resultado SolutionOne" + solution(A));
+		System.out.print("Resultado SolutionTwo" + solutionTwo(A));
 	}
 }
